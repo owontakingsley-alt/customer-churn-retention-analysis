@@ -62,7 +62,7 @@ Repository structure
 ```
 ---
 Dashboard
-
+![Churn dashboard](Churn Overview Dashboard.png)
 
 https://public.tableau.com/views/CustomerChurnRetentionAnalysis_17894141141380/ChurnOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ---
