@@ -58,7 +58,7 @@ Repository structure
 ├── README.md
 ├── churn_analysis.sql          # full SQL workflow: cleaning, RFM, churn
 ├── churn_model.ipynb           # modelling, evaluation, business case
-└── churn-dashboard.png         # dashboard screenshot)
+└── churn-dashboard.png         # dashboard screenshot
 
 ```
 ---
