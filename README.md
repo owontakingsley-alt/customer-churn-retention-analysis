@@ -50,21 +50,20 @@ Tech stack
 MySQL — data loading, cleaning, aggregation, RFM segmentation, churn labelling
 Python — pandas, scikit-learn (logistic regression, random forest), SQLAlchemy
 Jupyter Notebook — modelling and analysis
-[Tableau Public / Power BI] — interactive dashboard (link below)
+[Tableau Public] — interactive dashboard (link below)
+**[View the live interactive dashboard →](https://public.tableau.com/views/CustomerChurnRetentionAnalysis_17894141141380/ChurnOverview)**
 ---
 Repository structure
 ```
-└── README.md
-├── churn_model.ipynb      # modelling, evaluation, business case
-├── churn_analysis.sql     # cleaning \& customer summary # RFM scoring \& named segments # churn definition
-├── Churn Overview Dashboard/(screenshot + link)
+├── README.md
+├── churn_analysis.sql          # full SQL workflow: cleaning, RFM, churn
+├── churn_model.ipynb           # modelling, evaluation, business case
+└── churn-dashboard.png         # dashboard screenshot)
 
 ```
 ---
 Dashboard
-![Churn dashboard](Churn Overview Dashboard.png)
-
-https://public.tableau.com/views/CustomerChurnRetentionAnalysis_17894141141380/ChurnOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+[![Churn dashboard](Churn%20Overview%20Dashboard.png)](https://public.tableau.com/views/CustomerChurnRetentionAnalysis_17894141141380/ChurnOverview)
 ---
 Dataset
 Online Retail II — UCI Machine Learning Repository. ~1.07M real transactions from a UK online gift retailer, Dec 2009 – Dec 2011. Licensed CC BY 4.0.
@@ -72,4 +71,4 @@ Online Retail II — UCI Machine Learning Repository. ~1.07M real transactions f
 Notes & limitations
 Churn is defined behaviourally (90-day inactivity), not from a ground-truth label — a reasonable but adjustable choice.
 The campaign cost models contact cost only; a fuller business case would also net out the margin given away in any discount offer.
-Win-back and value-recovery rates are stated industry-typical assumptions; the framework holds for any values, and the sensitivity analysis shows the conclusion is ro
+Win-back and value-recovery rates are stated industry-typical assumptions; the framework holds for any values, and the sensitivity analysis shows the conclusion is robust to them.
