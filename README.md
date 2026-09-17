@@ -66,8 +66,9 @@ Repository structure
 Dashboard
 [![Churn dashboard](Churn%20Overview%20Dashboard.png)](https://public.tableau.com/views/CustomerChurnRetentionAnalysis_17894141141380/ChurnOverview)
 ---
-Dataset
-Online Retail II — UCI Machine Learning Repository. ~1.07M real transactions from a UK online gift retailer, Dec 2009 – Dec 2011. Licensed CC BY 4.0.
+## Dataset
+
+[Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) — UCI Machine Learning Repository. ~1.07M real transactions from a UK online gift retailer, Dec 2009 – Dec 2011. Licensed CC BY 4.0.
 ---
 Notes & limitations
 Churn is defined behaviourally (90-day inactivity), not from a ground-truth label — a reasonable but adjustable choice.
