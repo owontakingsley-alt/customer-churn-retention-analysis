@@ -51,7 +51,7 @@ The recommendation remains strongly positive across every tested scenario.
 - **MySQL** — data loading, cleaning, aggregation, RFM segmentation, churn labelling
 - **Python** — pandas, scikit-learn (logistic regression, random forest), SQLAlchemy
 - **Jupyter Notebook** — modelling and analysis
-- **Tableau Public** — interactive dashboard (link below)
+- **Tableau Public** — interactive dashboard 
 **[View the live interactive dashboard →](https://public.tableau.com/views/CustomerChurnRetentionAnalysis_17894141141380/ChurnOverview)**
 ---
 Repository structure
